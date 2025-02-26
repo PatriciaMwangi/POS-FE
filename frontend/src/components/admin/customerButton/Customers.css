@@ -1,0 +1,83 @@
+.customers-container {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background */
+  }
+  
+  .error-message {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .customers-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background-color: #d2b48c; /* Light brown */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .customers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .customers-table th,
+  .customers-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .customers-table th {
+    background-color: #d2b48c; /* Light brown for headers */
+    color: white;
+  }
+  
+  .customers-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+  }
+  
+  .products-button {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #d2b48c; /* Light brown border */
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-content {
+    border: 1px solid #d2b48c; /* Light brown border for modal */
+  }
+  
+  .modal-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-button.secondary {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #d2b48c; /* Light brown border */
+  }
+  
+  .modal-button.primary {
+    background-color: #d2b48c; /* Light brown */
+    color: white;
+  }

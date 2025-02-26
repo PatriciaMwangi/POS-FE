@@ -1,0 +1,46 @@
+.customer-details-card {
+    background-color: #f0e0d0; /* A slightly darker/browner shade */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust width as needed */
+    text-align: center;
+  }
+  
+  .customer-details-card h2 {
+    color: #6b3e26; /* Dark brown for heading */
+    margin-bottom: 20px;
+  }
+  
+  .customer-details-card label {
+    color: #6b3e26; /* Dark brown for labels */
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .customer-details-card input[type="text"] {
+    width: calc(100% - 22px); /* Adjust width to account for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #6b3e26;
+    border-radius: 4px;
+  }
+  
+  .customer-details-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .customer-details-card button:first-child {
+    background-color: #6b3e26; /* Dark brown for Cash Sale */
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .customer-details-card button:last-child {
+    background-color: #a0522d; /* Medium brown for Credit Sale */
+    color: white;
+  }

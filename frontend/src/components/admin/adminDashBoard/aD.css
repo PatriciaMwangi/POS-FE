@@ -1,0 +1,59 @@
+.summary {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9d8d8; /* Subtle background */
+    padding: 20px;
+  }
+  
+  .summary > div {
+    background-color: rgba(214, 120, 13, 0.685);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 20%; /* Adjust width as needed */
+  }
+  
+  .summary > div strong {
+    display: block;
+    font-size: 2rem; /* Large number size */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+
+  .summary > div span {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px; /* Add some top margin */
+  }
+  .calendar-container {
+    margin-bottom: 20px;
+  }
+  
+  .react-calendar {
+    width: 100%; /* Make calendar responsive */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  
+  .react-calendar__navigation button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    padding: 5px;
+  }
+  
+  .react-calendar__tile {
+    padding: 10px;
+  }
+  
+  .react-calendar__tile--now {
+    background-color: #e0f7fa; /* Light blue for today */
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #b37f31; /* Light blue for selected date */
+  }
